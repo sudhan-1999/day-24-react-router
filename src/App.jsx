@@ -32,7 +32,7 @@ function App() {
 }
 function All(){
   return(
-    <div>
+    <div className='all'>
     <Fsd/>
     <Ds/>
     <Cy/>

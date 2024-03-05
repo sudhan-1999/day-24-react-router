@@ -1,12 +1,3 @@
-
-/*
-.row{
-  width: 100%;
-  height: 11.3125rem;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  object-fit: cover;
-}*/
 .nav{
   display: flex;
   flex-direction: row;
@@ -15,3 +6,12 @@ li{
   display: flex;
   padding-left: 10px;
 }
+.all{
+  margin: 20px;
+  padding: 10px;
+}
+.container{
+  padding: 10px;
+
+}
+

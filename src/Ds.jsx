@@ -15,23 +15,21 @@ function Ds() {
     credit:'By Isha Sharma'
   }]
   return (
-    <div className='conatainer'>
-      <div className='row'>
-        {data.map((e,index)=>{
-        return(
-          <div className='col-lg-4' key={index}>
-            <div className="card" style={{ width: "18rem" }}>
+    <div className="container">
+      <div className="row">
+        {data.map((e, index) => {
+          return (
+            <div className="col-lg-4" key={index}>
+              <div className="card" style={{ width: "18rem" }}>
                 <img src={e.img} className="card-img-top" alt="Data Science..." />
                 <div className="card-body">
                   <h5 className="card-title">{e.des}</h5>
                   <p className="card-text">{e.credit}</p>
                 </div>
-          </div> 
-          </div>   
-        )
-        }
-        )
-        }
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   )
