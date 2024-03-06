@@ -15,6 +15,9 @@ function Ds() {
     credit:'By Isha Sharma'
   }]
   return (
+    <div style={{"margin":"50px"}}> 
+
+    <div style={{"margin":"50px"}}> 
     <div className="container">
       <div className="row">
         {data.map((e, index) => {
@@ -31,6 +34,8 @@ function Ds() {
           );
         })}
       </div>
+    </div>
+    </div>
     </div>
   )
 }

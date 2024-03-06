@@ -15,6 +15,7 @@ function Cy() {
     credit:'By Tushar Vinocha'
   }]
   return (
+    <div style={{"margin":"50px"}}> 
     <div className='container'>
       <div className='row'>
         {cyber.map((e,index)=>{
@@ -33,6 +34,7 @@ function Cy() {
         )
       }
       </div>
+    </div>
     </div>
   )
 }

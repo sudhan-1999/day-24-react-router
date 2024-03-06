@@ -19,6 +19,7 @@ function Fsd() {
     },
   ];
   return (
+    <div style={{"margin":"50px"}}> 
     <div className="container">
       <div className="row">
         {fullstack.map((e, index) => {
@@ -36,7 +37,9 @@ function Fsd() {
         })}
       </div>
     </div>
+    </div> 
   );
+  
 }
 
 export default Fsd;

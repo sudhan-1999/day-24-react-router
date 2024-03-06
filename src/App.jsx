@@ -10,7 +10,7 @@ import {Routes,Route,Link} from 'react-router-dom'
 function App() {
   return (
     <div className='app'>
-    <nav>
+    <div className='list' style={{"display":"flex","justify-content": "space-around"}}>
       <ul className='nav'>
         <li><Link to='/'>All</Link></li>
         <li><Link to='/Fsd'>Full Stack Development</Link></li>
@@ -18,7 +18,7 @@ function App() {
         <li><Link to='/Cy'>Cyber Security</Link></li>
         <li><Link to='/Carrer'>Carrer</Link></li>
       </ul>
-    </nav>
+      </div>
     <Routes>
     <Route path="/" element={<All />} />
     <Route path="/Fsd" element={<Fsd />} />

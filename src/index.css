@@ -1,0 +1,71 @@
+.haed{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+.haedimg{
+    display: flex;
+    justify-content: center;
+    
+}
+h1,h2,h3{
+    font-family: 'Covered By Your Grace', cursive;
+
+}
+#row{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(248, 235, 248);
+}
+h2{
+    text-align: center;
+}
+.main-para{
+    font-size: small;
+    text-align: center;
+}
+.main-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.main-3{
+    text-align: center;
+    padding-top: 20px;
+}
+.body{
+    background-color: rgb(247, 247, 247)
+}
+.p1{
+    font-weight: bold;
+}
+.p2{
+   font-size: 15px;
+}
+.button2,.button1{
+    border-radius: 5px;
+    background-color: rgb(134, 240, 134);
+    color: white;
+    height: 40px;
+}
+.button{
+    border-radius: 5px;
+    background-color: rgb(122, 118, 118);
+    color: rgb(202, 199, 199);
+    height: 40px;
+}
+.footer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 20px;
+}
+.list{
+    background-color: aliceblue;   
+    
+    
+}
+.nav>li{
+    padding-left: 50px;
+}
