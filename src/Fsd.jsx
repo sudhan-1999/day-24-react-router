@@ -25,7 +25,7 @@ function Fsd() {
         {fullstack.map((e, index) => {
           return (
             <div className="col-lg-4" key={index}>
-              <div className="card" style={{ width: "18rem" }}>
+              <div className="card" style={{ width: "18rem",height:"20rem"  }}>
                 <img src={e.img} className="card-img-top" alt="Full Stack Development..." />
                 <div className="card-body">
                   <h5 className="card-title">{e.des}</h5>
